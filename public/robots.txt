@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digital-clock-moses.netlify.app/sitemap.xml
