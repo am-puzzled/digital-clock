@@ -46,7 +46,10 @@ function App() {
 
   return (
     <>
-      <div className="card">
+      {/* for screen readers */}
+      <p className='sr-only' >This is a digital clock app. The time right now is  </p>
+
+      <div className="card" tabIndex={0} role='stopwatch_display'>
         <h1 className="time"><span>{formatTime()}</span></h1>
       </div>
 
